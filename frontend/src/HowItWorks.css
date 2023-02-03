@@ -1,0 +1,40 @@
+.HIW{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 58px;
+     
+    height: 977px;
+    margin: none;
+    /* Secondary color2/s92 */
+
+    background: #FFCEB6;
+}
+
+.HIW h1{
+    /* How it Works */
+
+
+    width: 260px;
+    height: 47px;
+
+    /* Heading Large B */
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    /* identical to box height, or 47px */
+
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

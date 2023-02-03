@@ -1,0 +1,60 @@
+.why{
+    padding-bottom: 40px;
+}
+.why__heading {
+    width: 458px;
+    height: 47px;
+    margin-left: 491px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.why__cover1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1064px;
+    height: 330px;
+    margin-left: 189px;
+    margin-top: 54px;
+    padding-bottom: 54px;
+}
+
+.why__cover2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 242px;
+    height: 330px;
+}
+
+.why__cover2 h1 {
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+}
+
+.why__cover2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    /* or 24px */
+    width: 242px;
+    height: 96px;
+    text-align: center;
+}

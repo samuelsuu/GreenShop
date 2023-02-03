@@ -1,0 +1,58 @@
+/* css naming using BEM convention */
+
+.banner{
+    min-height: 29.813rem;
+    position: relative;
+    color: white;
+    object-fit: contain;
+}
+
+.banner__contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 766px;
+    height: 250px;
+    margin-left: 21.063rem;
+    padding-top: 6.75rem;
+    color: #F1FFF9;
+   
+}
+
+.banner__title {
+    color: #F1FFF9;
+    font-family: sans-serif;
+    font-size: 3.813rem;
+    font-weight: 700;
+    line-height: 4.563rem;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.banner__description {
+    max-width: 398px;
+    height: 90px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.563rem;
+    line-height: 120%;
+    text-align: center;
+    color: #E3E4E4;
+}
+
+.banner__button {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 291px;
+    height: 39px;
+    background: #FF681E;
+    border-radius: 100px;
+    border: 0px;
+    color: #FFF0E8;
+    cursor: pointer;
+    padding: 10px 89px ;
+}
