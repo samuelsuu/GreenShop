@@ -1,0 +1,50 @@
+:root{
+    --black: #212121;
+    --white: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: var(--white);
+    padding: 5px 8px 7px 7px;
+}
+
+.nav1{
+    padding: 16px 32px 0px;
+}
+.nav1 ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 400px;
+    color: var(--black);
+}
+li{
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0px 30px;
+}
+.nav2 i{
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.menu-sub{
+    display: flex;
+}

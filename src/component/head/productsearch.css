@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background: #11945b;
+  align-items: center;
+  padding: 24px 32px;
+}
+.head1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.headlogo {
+  color: #d8ffee;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 120%;
+}
+.headlogo span {
+  color: #ffac83;
+}
+
+.headSearch {
+  display: flex;
+  gap: 32px;
+}
+.search {
+  background: #ffffff;
+  padding: 0 6px;
+}
+.input-container input {
+  height: 55px;
+  width: 320px;
+  margin-left: 20px;
+  outline: none;
+}
+
+.headSell {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFF0E8;
+}
