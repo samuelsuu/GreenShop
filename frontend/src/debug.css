@@ -1,0 +1,146 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: safe;
+    padding: 10px;
+    gap: 30px;
+    width: auto;
+    height: 527px;
+    left: 90px;
+    top: calc(50% - 527px/2 + 430px);
+    
+    /* Primary color/p8 */
+    
+    background: #BEFFE3;
+    border-radius: 15px;
+}
+
+/*.headertext{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #212121;
+position:absolute;
+}*/
+
+.scroll-items {
+    display: flex;
+    flex-wrap: nowrap;
+    gap:20px;
+}
+
+.carousel-products {
+width: 2336px;
+height: 435px;
+margin: 10px;
+left: 0px;
+top: 0px;
+
+}
+
+.product-card{
+width: 400px;
+flex: 0 0 auto;
+display: flex;
+flex-direction: column;
+position: relative;
+background: #FFFFFF;
+/* E2 */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+
+}
+
+.imgbackdrop{
+width: 246px;
+height: 246px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#Card-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 154px;
+height: 117px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.ProductName{
+width: 154px;
+height: 19px;
+
+/* Body Medium B */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+/* text color */
+
+color: #212121;
+
+}
+
+.Icons{
+color: yellow;
+}
+
+.rev {
+width: 65px;
+height: 16px;
+    
+/* Caption */
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120%;
+    
+/* identical to box height, or 16px */
+
+/* Neutral color/n3 */
+color: #5B7167;
+}
+
+.price {
+width: 86px;
+height: 24px;
+    
+    
+/* Body Large B */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+
+/* identical to box height, or 24px */
+    
+/* Primary color/p2 */
+    
+color: #11945B;    
+}
+
+.arrowf {
+color: white;
+background-color: #11945B;
+width: 56px;
+}
